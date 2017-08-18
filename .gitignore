@@ -1,2 +1,17 @@
 id_rsa
 id_rsa.pub
+node_modules/*
+/node_modules
+/dist
+/.tmp
+/.sass-cache
+/.happypack
+HEAD
+.idea
+*.log
+npm-debug.log
+.DS_Store
+/.babel-cache
+/stats.json
+/.vscode
+package-lock.json
