@@ -27,8 +27,8 @@ var webpackDevConfig = merge(baseWebpackConfig, {
         hot: true,
         port: 3001,
         proxy: {
-            "/finance/pc/api": {
-                target: "http://10.4.245.35:8414/",
+            "/pc": {
+                target: "/",
             }
         }
     },
