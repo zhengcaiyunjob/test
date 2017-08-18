@@ -23,7 +23,7 @@ var webpackConfig = merge(baseWebpackConfig, {
         path: path.resolve(__dirname, '../dist'),
         filename: utils.assetsPath('js/[name].[chunkhash].js'),
         chunkFilename: utils.assetsPath('js/[id].[chunkhash].js'),
-        publicPath: '//s3.meituan.net/v1/mss_c4375b35f5cb4e678b5b55a48c40cf9d/waimai-mfe-alchemist-pc/'
+        publicPath: ''
     },
     plugins: [
         new webpack.DefinePlugin({

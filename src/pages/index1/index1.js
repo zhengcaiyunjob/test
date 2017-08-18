@@ -9,12 +9,10 @@ import axios from 'axios';
 import miniToastr from 'mini-toastr';
 import app from './app';
 import router from './router';
-import store from './store';
+import store from './store/store';
 
 Vue.use(VTooltip);
 
-Vue.config.productionTip = false;
-Vue.prototype.$utils = utils;
 /* eslint-disable no-new */
 
 

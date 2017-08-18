@@ -1,6 +1,5 @@
 var path = require('path');
 var utils = require('./utils');
-var config = require('../config');
 var entries = utils.getEntry('./src/pages/*/*.js');
 
 function resolve (dir) {
@@ -19,15 +18,6 @@ module.exports = {
   },
   module: {
     rules: [
-      {
-        test: /\.(js|vue)$/,
-        loader: 'eslint-loader',
-        enforce: 'pre',
-        include: [resolve('src'), resolve('test')],
-        options: {
-          formatter: require('eslint-friendly-formatter')
-        }
-      },
       {
         test: /\.vue$/,
         loader: 'vue-loader',

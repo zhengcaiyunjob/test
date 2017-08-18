@@ -28,7 +28,7 @@ var webpackDevConfig = merge(baseWebpackConfig, {
         port: 3001,
         proxy: {
             "/pc": {
-                target: "/",
+                target: "/127.10.33.21",
             }
         }
     },
@@ -40,7 +40,7 @@ var webpackDevConfig = merge(baseWebpackConfig, {
         new webpack.HotModuleReplacementPlugin(),
         new FriendlyErrorsPlugin(),
         new OpenBrowserPlugin({
-            url: 'http://127.0.0.1:3001/billReconciliation.html'
+            url: 'http://127.0.0.1:3001/index1.html'
         })
     ],
 });
