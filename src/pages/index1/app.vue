@@ -7,9 +7,7 @@
             <li>
                 <router-link :to="'foo'">foo</router-link>
             </li>
-            <li>1</li>
         </ul>
-        <span>iiiiiiiiiiiiiii</span>
         <router-view></router-view>
     </div>
 </template>
